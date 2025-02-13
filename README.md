@@ -19,6 +19,15 @@ The simulation involves:
 - Applying rotation and beamsplitter gates.
 - Calculating the joint Fock state probabilities.
 - Comparing the results with theoretical predictions.
+**## Results**
+The simulation calculates the joint Fock state probabilities for a given input state and compares them with the theoretical values obtained using the permanent of the unitary matrix. The results are printed to the console, showing the probabilities and the percentage difference between the simulated and theoretical values.
+
+**## Dependencies**
+Strawberry Fields: A Python library for simulating continuous-variable quantum circuits.
+
+NumPy: A fundamental package for scientific computing with Python.
+
+The Walrus: A library for computing hafnians, permanents, and torontonians.
 
 ## Installation
 
@@ -29,12 +38,3 @@ pip install strawberryfields --upgrade
 pip install xanadu-cloud-client
 pip install numpy
 pip install thewalrus
-**## Results**
-The simulation calculates the joint Fock state probabilities for a given input state and compares them with the theoretical values obtained using the permanent of the unitary matrix. The results are printed to the console, showing the probabilities and the percentage difference between the simulated and theoretical values.
-
-**## Dependencies**
-Strawberry Fields: A Python library for simulating continuous-variable quantum circuits.
-
-NumPy: A fundamental package for scientific computing with Python.
-
-The Walrus: A library for computing hafnians, permanents, and torontonians.
