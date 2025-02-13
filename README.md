@@ -1,15 +1,7 @@
 # Boson Sampling Simulation
 
 This repository contains a Python implementation of a Boson Sampling simulation using the Strawberry Fields library. Boson Sampling is a quantum computational task that demonstrates quantum advantage by sampling from the output distribution of a linear optical network.
-
-## Table of Contents
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Results](#results)
-- [Dependencies](#dependencies)
-- [License](#license)
-
+ 
 ## Introduction
 
 Boson Sampling is a non-universal quantum computing model that is believed to be hard to simulate classically. This project simulates a simple Boson Sampling experiment using the Strawberry Fields library, which is a Python library for simulating continuous-variable quantum circuits.
